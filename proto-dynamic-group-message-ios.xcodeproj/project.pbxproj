@@ -13,6 +13,9 @@
 		AA12CE4529CB3AB1004251EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12CE4329CB3AB1004251EE /* Main.storyboard */; };
 		AA12CE4729CB3AB3004251EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA12CE4629CB3AB3004251EE /* Assets.xcassets */; };
 		AA12CE4A29CB3AB3004251EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12CE4829CB3AB3004251EE /* LaunchScreen.storyboard */; };
+		AA12CE5229CB40EC004251EE /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12CE5129CB40EC004251EE /* MessageCell.swift */; };
+		AA12CE5429CB428B004251EE /* Extension-UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12CE5329CB428B004251EE /* Extension-UIView.swift */; };
+		AAD6F34229CB85F1002876BC /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6F34129CB85F1002876BC /* ChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AA12CE4629CB3AB3004251EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA12CE4929CB3AB3004251EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA12CE4B29CB3AB3004251EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA12CE5129CB40EC004251EE /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		AA12CE5329CB428B004251EE /* Extension-UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension-UIView.swift"; sourceTree = "<group>"; };
+		AAD6F34129CB85F1002876BC /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				AA12CE4629CB3AB3004251EE /* Assets.xcassets */,
 				AA12CE4829CB3AB3004251EE /* LaunchScreen.storyboard */,
 				AA12CE4B29CB3AB3004251EE /* Info.plist */,
+				AA12CE5129CB40EC004251EE /* MessageCell.swift */,
+				AA12CE5329CB428B004251EE /* Extension-UIView.swift */,
+				AAD6F34129CB85F1002876BC /* ChatMessage.swift */,
 			);
 			path = "proto-dynamic-group-message-ios";
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA12CE4229CB3AB1004251EE /* ViewController.swift in Sources */,
+				AA12CE5229CB40EC004251EE /* MessageCell.swift in Sources */,
 				AA12CE3E29CB3AB1004251EE /* AppDelegate.swift in Sources */,
+				AAD6F34229CB85F1002876BC /* ChatMessage.swift in Sources */,
 				AA12CE4029CB3AB1004251EE /* SceneDelegate.swift in Sources */,
+				AA12CE5429CB428B004251EE /* Extension-UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
